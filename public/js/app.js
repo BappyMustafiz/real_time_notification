@@ -59258,7 +59258,6 @@ var app = new Vue({
         _this.lessons.push(data);
 
         timeAgo();
-        console.log(data);
       });
     }
 

@@ -56,7 +56,6 @@ const app = new Vue({
     			data = {"data":data,'created_at':data.lesson.created_at};
     			this.lessons.push(data);
     			timeAgo();
-    			console.log(data);
     		});
     	};
 
